@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		293A7D351CA7A85D009A792E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A7D341CA7A85D009A792E /* AppDelegate.swift */; };
 		293A7D371CA7A85D009A792E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A7D361CA7A85D009A792E /* ViewController.swift */; };
-		293A7D3A1CA7A85D009A792E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293A7D381CA7A85D009A792E /* Main.storyboard */; };
 		293A7D3C1CA7A85D009A792E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293A7D3B1CA7A85D009A792E /* Assets.xcassets */; };
 		293A7D3F1CA7A85D009A792E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293A7D3D1CA7A85D009A792E /* LaunchScreen.storyboard */; };
 		293A7D4A1CA7A85D009A792E /* DronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A7D491CA7A85D009A792E /* DronTests.swift */; };
 		293A7D551CA7A85D009A792E /* DronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A7D541CA7A85D009A792E /* DronUITests.swift */; };
+		296E87921CC6C7490058B246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296E87901CC6C7490058B246 /* Main.storyboard */; };
+		296E87941CC739000058B246 /* VC_SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E87931CC739000058B246 /* VC_SettingMenu.swift */; };
+		29BC9BC01CC6C40900AC2DEE /* VC_ConnectMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC9BBF1CC6C40900AC2DEE /* VC_ConnectMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		293A7D311CA7A85D009A792E /* Dron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293A7D341CA7A85D009A792E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		293A7D361CA7A85D009A792E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		293A7D391CA7A85D009A792E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		293A7D3B1CA7A85D009A792E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293A7D3E1CA7A85D009A792E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293A7D401CA7A85D009A792E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		293A7D501CA7A85D009A792E /* DronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		293A7D541CA7A85D009A792E /* DronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DronUITests.swift; sourceTree = "<group>"; };
 		293A7D561CA7A85D009A792E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296E87911CC6C7490058B246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		296E87931CC739000058B246 /* VC_SettingMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_SettingMenu.swift; sourceTree = "<group>"; };
+		29BC9BBF1CC6C40900AC2DEE /* VC_ConnectMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_ConnectMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				293A7D341CA7A85D009A792E /* AppDelegate.swift */,
 				293A7D361CA7A85D009A792E /* ViewController.swift */,
-				293A7D381CA7A85D009A792E /* Main.storyboard */,
 				293A7D3B1CA7A85D009A792E /* Assets.xcassets */,
+				296E87901CC6C7490058B246 /* Main.storyboard */,
 				293A7D3D1CA7A85D009A792E /* LaunchScreen.storyboard */,
 				293A7D401CA7A85D009A792E /* Info.plist */,
+				29BC9BBF1CC6C40900AC2DEE /* VC_ConnectMenu.swift */,
+				296E87931CC739000058B246 /* VC_SettingMenu.swift */,
 			);
 			path = Dron;
 			sourceTree = "<group>";
@@ -229,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296E87921CC6C7490058B246 /* Main.storyboard in Resources */,
 				293A7D3F1CA7A85D009A792E /* LaunchScreen.storyboard in Resources */,
 				293A7D3C1CA7A85D009A792E /* Assets.xcassets in Resources */,
-				293A7D3A1CA7A85D009A792E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BC9BC01CC6C40900AC2DEE /* VC_ConnectMenu.swift in Sources */,
 				293A7D371CA7A85D009A792E /* ViewController.swift in Sources */,
+				296E87941CC739000058B246 /* VC_SettingMenu.swift in Sources */,
 				293A7D351CA7A85D009A792E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,20 +301,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		293A7D381CA7A85D009A792E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				293A7D391CA7A85D009A792E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		293A7D3D1CA7A85D009A792E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				293A7D3E1CA7A85D009A792E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		296E87901CC6C7490058B246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				296E87911CC6C7490058B246 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +490,7 @@
 				293A7D5B1CA7A85D009A792E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		293A7D5C1CA7A85D009A792E /* Build configuration list for PBXNativeTarget "DronTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				293A7D5E1CA7A85D009A792E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		293A7D5F1CA7A85D009A792E /* Build configuration list for PBXNativeTarget "DronUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				293A7D611CA7A85D009A792E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
