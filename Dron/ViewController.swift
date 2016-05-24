@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController{
     
-    //wntjr
+    //wntjrㄴㅇㄴㅇㅇ
 
     @IBOutlet weak var btn_connect: UIButton!
     @IBOutlet weak var btn_setting: UIButton!
