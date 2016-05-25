@@ -10,6 +10,21 @@ import UIKit
 
 class VC_ConnectMenu: UIViewController {
 
+    @IBAction func btn_dron_select(sender: AnyObject) {
+    }
+    
+    @IBAction func btn_bluetooth(sender: AnyObject) {
+    }
+    
+    @IBAction func btn_wifi(sender: AnyObject) {
+    }
+    
+    @IBAction func btn_trimming(sender: AnyObject) {
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
