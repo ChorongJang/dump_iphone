@@ -188,9 +188,6 @@
                                 <state key="normal" title="Trimming" backgroundImage="connect_icon_trimming">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="btn_trimming:" destination="gSx-vi-K6V" eventType="touchUpInside" id="EXo-j1-e0Y"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slB-vd-2yJ">
                                 <rect key="frame" x="132" y="87" width="57" height="80"/>
@@ -202,7 +199,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="btn_bluetooth:" destination="gSx-vi-K6V" eventType="touchUpInside" id="Bf7-mH-ClQ"/>
                                     <segue destination="hzV-qo-rRj" kind="modal" id="xO4-fp-rzr"/>
                                 </connections>
                             </button>
@@ -226,9 +222,6 @@
                                 <state key="normal" title="WIFI" backgroundImage="connect_icon_wifi">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="btn_wifi:" destination="gSx-vi-K6V" eventType="touchUpInside" id="0Vw-py-9Es"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XO-oH-mbU">
                                 <rect key="frame" x="35" y="87" width="57" height="80"/>
@@ -241,7 +234,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="btn_dron_select:" destination="gSx-vi-K6V" eventType="touchUpInside" id="ab2-JA-Mrl"/>
                                     <segue destination="9gv-2i-xBD" kind="modal" id="id0-yh-8QK"/>
                                 </connections>
                             </button>
@@ -268,9 +260,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Qgl-Z0-Ldc"/>
-                    <connections>
-                        <outlet property="btn_dronSelect" destination="7XO-oH-mbU" id="2F5-dV-Zni"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehx-Jx-RqT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -410,9 +399,6 @@
                                 <state key="normal" title="Drone Select" backgroundImage="connect_icon_dron">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="btn_dron_select:" destination="gSx-vi-K6V" eventType="touchUpInside" id="JVY-j9-yWf"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wy-uJ-BZP">
                                 <rect key="frame" x="92" y="86" width="57" height="80"/>
@@ -425,9 +411,6 @@
                                 <state key="normal" title="Drone Select" backgroundImage="connect_icon_dron">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="btn_dron_select:" destination="gSx-vi-K6V" eventType="touchUpInside" id="h9T-Hb-yqG"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxZ-Zq-bf6">
                                 <rect key="frame" x="164" y="86" width="57" height="80"/>
@@ -439,9 +422,6 @@
                                 <state key="normal" title="Drone Select" backgroundImage="connect_icon_dron">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="btn_dron_select:" destination="gSx-vi-K6V" eventType="touchUpInside" id="2oF-wC-mYG"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFl-jf-Pvy">
                                 <rect key="frame" x="235" y="86" width="57" height="80"/>
@@ -454,9 +434,6 @@
                                 <state key="normal" title="Drone Select" backgroundImage="connect_icon_dron">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="btn_dron_select:" destination="gSx-vi-K6V" eventType="touchUpInside" id="YkR-lY-DZI"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LpC-fn-4cs">
                                 <rect key="frame" x="20" y="29" width="28" height="30"/>
@@ -550,9 +527,6 @@
                                 <state key="normal" title="블루투스 검색">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="btn_dron_select:" destination="gSx-vi-K6V" eventType="touchUpInside" id="oxA-l3-bUT"/>
-                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CBs-sT-zNl">
                                 <rect key="frame" x="20" y="202" width="287" height="194"/>
